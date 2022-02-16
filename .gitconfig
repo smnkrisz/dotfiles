@@ -1,0 +1,9 @@
+[user]
+	name = smnkrisz
+	email = 59121477+smnkrisz@users.noreply.github.com
+
+[core]
+	editor = code --wait
+[alias]
+	c = commit -m
+	st = status

@@ -1,0 +1,6 @@
+[/]
+background-color='rgb(27,30,35)'
+default-size-columns=110
+default-size-rows=35
+palette=['rgb(44,44,44)', 'rgb(204,35,28)', 'rgb(104,157,105)', 'rgb(215,153,34)', 'rgb(54,107,113)', 'rgb(78,81,101)', 'rgb(69,133,135)', 'rgb(200,187,151)', 'rgb(119,119,119)', 'rgb(204,35,28)', 'rgb(104,157,105)', 'rgb(215,153,34)', 'rgb(54,107,113)', 'rgb(78,81,101)', 'rgb(69,133,135)', 'rgb(200,187,151)']
+use-theme-colors=false
