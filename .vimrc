@@ -25,6 +25,9 @@ set showmatch
 "Smart indent
 set si
 
+"Disable swap
+set noswapfile  
+
 "Cursor line
 set cursorline
 hi CursorLine ctermbg=8 ctermfg=15 "8 = dark gray, 15 = white
