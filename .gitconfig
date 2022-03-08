@@ -7,3 +7,4 @@
 [alias]
 	c = commit -m
 	st = status
+    co = checkout
