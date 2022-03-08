@@ -1,4 +1,4 @@
-cd
+cd &&
 
 #Install basic programs
 sudo apt-get install git vim code gparted postman vlc thonny neofetch -y
