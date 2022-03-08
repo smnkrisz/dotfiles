@@ -7,9 +7,6 @@ sudo apt-get install git vim code gparted postman vlc thonny neofetch -y
 cd Github/dotfiles
 cp .bashrc .gitconfig .vimrc .vscode .material-theme-profile.dconf ../../.
 
-#Copy user settings
-cp user ../../.config/dconf
-
 #Setup terminal theme
 dconf load /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/ < material-theme-profile.dconf
 
