@@ -14,7 +14,7 @@ if has('filetype')
 endif
 
 "Line numbers
-set relativenumber number
+set number
 
 "Highlight search results
 set incsearch 
