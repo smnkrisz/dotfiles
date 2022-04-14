@@ -9,15 +9,8 @@
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""  
 
-if has('filetype')
-	filetype indent plugin on
-endif
-
 "Line numbers
 set number
-
-"Highlight search results
-set incsearch 
 
 "Show matching brackets
 set showmatch
@@ -27,17 +20,6 @@ set si
 
 "Disable swap
 set noswapfile  
-
-"Cursor line
-set cursorline
-hi CursorLine ctermbg=8 ctermfg=15 "8 = dark gray, 15 = white
-hi Cursor ctermbg=15 ctermfg=8
-
-"Tab width
-set tabstop=4
-
-"Space instead of tabs
-set expandtab
 
 "Enable auto completion menu after pressing TAB
 set wildmenu
