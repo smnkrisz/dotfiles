@@ -57,7 +57,7 @@ if [ -n "$force_color_prompt" ]; then
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]🍺 \w\[\033[00m\]\[\e[01;31m\]$(__git_ps1 " (%s)")\[\e[m\] '
+    PS1='\[\e[01;33m\]\t\[\e[m\] \[\033[01;32m\]🍺 \w\[\033[00m\]\[\e[01;31m\]$(__git_ps1 " (%s)")\[\e[m\] '
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -116,8 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# alias for Raspberry Pi
-alias pingpi='ping raspberrypi.local'
-alias sshpi='ssh pi@raspberry'
+alias update='sudo apt-get update && sudo apt-get upgrade'
+alias sshubuntu='ssh ubuntu@192.168.0.34'
 
 neofetch
