@@ -1,0 +1,20 @@
+===== Information about the build process: =====
+Build was run at 2022-05-19 02:11:05 on host ''
+
+Build was done on  Linux-4.1.12-124.48.6.el6uek.x86_64 using x86_64
+Build was done using cmake 3.11.2
+
+Build was done using MySQL 8.0.28
+===== Feature flags used: =====
+File 'CMakeCache.txt' is not yet found.
+
+===== Compiler flags used: =====
+Compiler: GNU 8.3.1
+COMPILE_DEFINITIONS: 
+CMAKE_C_FLAGS: -O1 -g -m64 -fno-omit-frame-pointer
+CMAKE_CXX_FLAGS: -O1 -g -m64 -std=c++17 -Werror -Wall -Wextra -Wpedantic -Wunused -Wshadow -Wdouble-promotion -Wformat-security -Wformat-y2k -Wlogical-op -Wno-error=type-limits
+CMAKE_C_FLAGS_DEBUG: -g
+CMAKE_CXX_FLAGS_DEBUG: -g
+CMAKE_C_FLAGS_RELWITHDEBINFO: -O2 -g -DNDEBUG -DNDEBUG 
+CMAKE_CXX_FLAGS_RELWITHDEBINFO: -O2 -g -DNDEBUG -DNDEBUG 
+===== EOF =====
