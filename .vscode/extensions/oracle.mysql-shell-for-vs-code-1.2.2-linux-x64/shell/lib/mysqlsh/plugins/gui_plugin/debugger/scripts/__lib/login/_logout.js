@@ -1,3 +1,0 @@
-
-ws.log("Logging out")
-
