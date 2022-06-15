@@ -118,5 +118,6 @@ fi
 
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias sshubuntu='ssh ubuntu@192.168.0.34'
+alias mountRPi='sudo sshfs -o allow_other,default_permissions ubuntu@192.168.0.34:/home/ubuntu/Torrents /mnt/RPi'
 
 neofetch
