@@ -119,5 +119,8 @@ fi
 alias update='sudo apt-get update && sudo apt-get upgrade'
 alias sshubuntu='ssh ubuntu@192.168.0.34'
 alias mountRPi='sudo sshfs -o allow_other,default_permissions ubuntu@192.168.0.34:/home/ubuntu/Torrents /mnt/RPi'
+alias startSQL='sudo service mysql start'
 
-neofetch
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
